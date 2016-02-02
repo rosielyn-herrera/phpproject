@@ -1,0 +1,38 @@
+<!Doctype hmtl>
+<html>
+
+	<head>
+	
+	</head>
+	
+	<?php 
+	$currentdate= date("m,j,y");
+	$currenttime= date("g:i:s:a");
+	$widgets= 23;
+	
+	$width=1;
+	$lenght=1;
+	/*
+	echo "today is $currentdate and the time is $currenttime";
+	
+	if ($widgets >= 10){
+		if ($widgets <= 23) {
+			echo "we HAVE BETWEEN T10 AND 29 WIDGETS";
+		}
+	}
+	ELSE {
+		ECHO "SYNTAX";
+	}
+	*/
+	
+	
+	do {
+	$width++ ;
+	$lenght++ ;
+	$area= $width * $lenght;
+	} while ($area <=1000) ;
+	echo "the smallest sq meter over 1000ft in area is $width ft x $lenght ft.";
+	
+	?>
+	
+	</html>
